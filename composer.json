@@ -1,0 +1,68 @@
+{
+    "name": "php-an602/an602-prosemirror-richtext",
+    "description": "PHP-AN602 - RichText Ecditor",
+    "keywords": ["an602", "php-an602", "humhub", "yii2", "framework"],
+    "homepage": "https://www.metamz.network/",
+    "type": "project",
+    "license": "AGPL-3.0-only",
+    "support": {
+        "issues": "https://github.com/php-an602/an602-prosemirror-richtext/issues?state=open",
+        "forum": "https://community.metamz.network",
+        "wiki": "https://community.metamz.network",
+        "source": "https://github.com/php-an602/an602-prosemirror-richtext"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4",
+        "cebe/markdown": "^1.2.1",
+        "npm-asset/animate.css": "^4.0",
+        "npm-asset/at.js": "^1.5.1",
+        "npm-asset/bluebird": "^3.3.5",
+        "npm-asset/blueimp-file-upload": "^9.24",
+        "npm-asset/blueimp-gallery": "^2.36.0",
+        "npm-asset/bootstrap-markdown": "^2.10",
+        "npm-asset/bootstrap-tour": "^0.11.0",
+        "npm-asset/clipboard-polyfill": "^3.0",
+        "npm-asset/codemirror": "^5.59",
+        "npm-asset/font-awesome": "^4.7.0",
+        "npm-asset/humhub-prosemirror-richtext": "^1.1.7",
+        "npm-asset/imagesloaded": "^5.0",
+        "npm-asset/intersection-observer": "^0.7.0",
+        "npm-asset/jplayer": "^2.9",
+        "npm-asset/jquery": "^3.6.3",
+        "npm-asset/jquery-ui": "^1.13.2",
+        "npm-asset/jquery-autosize": "^1.0",
+        "npm-asset/jquery-knob": "^1.2",
+        "npm-asset/jquery.cookie": "^1.4.1",
+        "npm-asset/kbw.timeentry": "^2.0",
+        "npm-asset/nprogress": "^0.2",
+        "npm-asset/select2": "^4.0.4",
+        "npm-asset/select2-bootstrap-theme": "^0.1.0-beta.4",
+        "npm-asset/socket.io-client": "^2.0",
+        "npm-asset/swiped-events": "^1.0.9",
+        "npm-asset/timeago": "^1.6.3"
+    },
+    "replace": {
+    },
+    "require-dev": {
+    
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "vendor-dir": "protected/vendor",
+        "sort-packages": true,
+        "fxp-asset": {
+            "enabled": false
+        },
+        "platform-check": false,
+        "platform": {
+            "php": "7.4"
+        }
+    },
+}
