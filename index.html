@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+      //  var global = {};
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/prosemirror-dev-tools@1.4.0/dist/umd/prosemirror-dev-tools.min.js"></script>
+    <script src="dist/humhub-editor.js"></script>
+    <script src="src/test.js"></script>
+</head>
+<body>
+
+<br>
+<textarea id="query" style="width:100%" rows="6" type="text" >pm.$node(doc).find('blockquote').find().text().delete(view);</textarea>
+<button id="submitQuery">Query</button>
+<br>
+<br>
+<div class="row">
+    <div class="column">
+        <div style="padding:5px">
+            <textarea id="markdown" style="box-sizing:border-box;width:100%;height:100%" rows="10"></textarea>
+        </div>
+<!-- [TestOembed](oembed:https://stackoverflow.com/questions/43439001/huge-space-between-div-and-iframe/43439064) -->
+    </div>
+    <div class="column">
+        <div>
+            <div id="editor"></div>
+        </div>
+    </div>
+    <div class="column">
+        <div style="padding:5px;">
+            <div id="result" style="min-height:200px;border:1px solid black;"></div>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<div class="row">
+    <div class="column" style="text-align:center">
+        <button id="render">Render</button>
+    </div>
+    <div class="column" style="text-align:center">
+        <button id="serialize">Serialize</button>
+    </div>
+    <div class="column" style="text-align:center">
+        <button id="parse">Parse</button>
+    </div>
+</div>
+<br>
+<button id="test">Test</button>
+<div id="testContent"></div>
+
+
+<div data-oembed="https://stackoverflow.com/questions/43439001/huge-space-between-div-and-iframe/43439064" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d340697.72182655236!2d11.26165571666892!3d48.154570298809446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e75f9a38c5fd9%3A0x10cb84a7db1987d!2zTcO8bmNoZW4!5e0!3m2!1sde!2sde!4v1510955566626" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
