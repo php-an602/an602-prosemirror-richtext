@@ -1,0 +1,12 @@
+{
+    "name":  "php-an602/an602-prosemirror-richtext",
+    "repositories": [
+      {
+        "type": "package",
+        "url": "https://github.com/php-an602/an602-prosemirror-richtext.git"
+      }
+    ],
+    "require": {
+      "php-an602/an602-prosemirror-richtext": "dev-master"
+    }
+  }
