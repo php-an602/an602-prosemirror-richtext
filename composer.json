@@ -1,7 +1,7 @@
 {
     "name": "npm-asset/an602-prosemirror-richtext",
     "description": "PHP-AN602 - RichText Ecditor",
-    "keywords": ["an602", "php-an602", "humhub", "yii2", "framework"],
+    "keywords": ["an602", "php-an602", "yii2", "framework"],
     "homepage": "https://www.metamz.network/",
     "type": "project",
     "license": "AGPL-3.0-only",
