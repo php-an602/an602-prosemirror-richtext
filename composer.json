@@ -15,7 +15,8 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://asset-packagist.org"
+            "url": "https://asset-packagist.org",
+            "vendor-alias": "npm-asset/an602-prosemirror-richtext"
         }
     ],
     "config": {
